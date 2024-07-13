@@ -1,0 +1,722 @@
+!function(e){var a={};function n(t){if(a[t])return a[t].exports;var o=a[t]={i:t,l:!1,exports:{}};return e[t].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=a,n.d=function(e,a,t){n.o(e,a)||Object.defineProperty(e,a,{enumerable:!0,get:t})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,a){if(1&a&&(e=n(e)),8&a)return e;if(4&a&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(n.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&a&&"string"!=typeof e)for(var o in e)n.d(t,o,function(a){return e[a]}.bind(null,o));return t},n.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(a,"a",a),a},n.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},n.p="",n(n.s=37)}({1:function(e,a,n){"use strict";a.a={usd:{id:2781,name:"United States Dollar",symbol:"usd",token:"$",space:""},all:{id:3526,name:"Albanian Lek",symbol:"all",token:"L",space:""},dzd:{id:3537,name:"Algerian Dinar",symbol:"dzd",token:"ÿØ.ÿ¨",space:""},ars:{id:2821,name:"Argentine Peso",symbol:"ars",token:"$",space:""},amd:{id:3527,name:"Armenian Dram",symbol:"amd",token:"÷è",space:""},aud:{id:2782,name:"Australian Dollar",symbol:"aud",token:"$",space:""},azn:{id:3528,name:"Azerbaijani Manat",symbol:"azn",token:"‚Çº",space:""},bhd:{id:3531,name:"Bahraini Dinar",symbol:"bhd",token:".ÿØ.ÿ®",space:""},bdt:{id:3530,name:"Bangladeshi Taka",symbol:"bdt",token:"‡ß≥",space:""},byn:{id:3533,name:"Belarusian Ruble",symbol:"byn",token:"Br",space:""},bmd:{id:3532,name:"Bermudan Dollar",symbol:"bmd",token:"$",space:""},bob:{id:2832,name:"Bolivian Boliviano",symbol:"bob",token:"Bs.",space:""},bam:{id:3529,name:"Bosnia-Herzegovina Convertible Mark",symbol:"bam",token:"KM",space:""},brl:{id:2783,name:"Brazilian Real",symbol:"brl",token:"R$",space:""},bgn:{id:2814,name:"Bulgarian Lev",symbol:"bgn",token:"–ª–≤",space:""},khr:{id:3549,name:"Cambodian Riel",symbol:"khr",token:"·üõ",space:""},cad:{id:2784,name:"Canadian Dollar",symbol:"cad",token:"$",space:""},clp:{id:2786,name:"Chilean Peso",symbol:"clp",token:"$",space:""},cny:{id:2787,name:"Chinese Yuan",symbol:"cny",token:"¬•",space:""},cop:{id:2820,name:"Colombian Peso",symbol:"cop",token:"$",space:""},crc:{id:3534,name:"Costa Rican Col√≥n",symbol:"crc",token:"‚Ç°",space:""},hrk:{id:2815,name:"Croatian Kuna",symbol:"hrk",token:"kn",space:""},cup:{id:3535,name:"Cuban Peso",symbol:"cup",token:"$",space:""},czk:{id:2788,name:"Czech Koruna",symbol:"czk",token:"Kƒç",space:""},dkk:{id:2789,name:"Danish Krone",symbol:"dkk",token:"kr",space:". "},dop:{id:3536,name:"Dominican Peso",symbol:"dop",token:"$",space:""},egp:{id:3538,name:"Egyptian Pound",symbol:"egp",token:"¬£",space:""},eur:{id:2790,name:"Euro",symbol:"eur",token:"‚Ç¨",space:""},gel:{id:3539,name:"Georgian Lari",symbol:"gel",token:"‚Çæ",space:""},ghs:{id:3540,name:"Ghanaian Cedi",symbol:"ghs",token:"‚Çµ",space:""},gtq:{id:3541,name:"Guatemalan Quetzal",symbol:"gtq",token:"Q",space:""},hnl:{id:3542,name:"Honduran Lempira",symbol:"hnl",token:"L",space:""},hkd:{id:2792,name:"Hong Kong Dollar",symbol:"hkd",token:"$",space:""},huf:{id:2793,name:"Hungarian Forint",symbol:"huf",token:"Ft",space:" "},isk:{id:2818,name:"Icelandic Kr√≥na",symbol:"isk",token:"kr",space:""},inr:{id:2796,name:"Indian Rupee",symbol:"inr",token:"‚Çπ",space:""},idr:{id:2794,name:"Indonesian Rupiah",symbol:"idr",token:"Rp",space:" "},irr:{id:3544,name:"Iranian Rial",symbol:"irr",token:"Ô∑º",space:""},iqd:{id:3543,name:"Iraqi Dinar",symbol:"iqd",token:"ÿπ.ÿØ",space:""},ils:{id:2795,name:"Israeli New Shekel",symbol:"ils",token:"‚Ç™",space:""},jmd:{id:3545,name:"Jamaican Dollar",symbol:"jmd",token:"$",space:""},jpy:{id:2797,name:"Japanese Yen",symbol:"jpy",token:"¬•",space:""},jod:{id:3546,name:"Jordanian Dinar",symbol:"jod",token:"ÿØ.ÿß",space:""},kzt:{id:3551,name:"Kazakhstani Tenge",symbol:"kzt",token:"‚Ç∏",space:""},kes:{id:3547,name:"Kenyan Shilling",symbol:"kes",token:"Sh",space:""},kwd:{id:3550,name:"Kuwaiti Dinar",symbol:"kwd",token:"ÿØ.ŸÉ",space:""},kgs:{id:3548,name:"Kyrgystani Som",symbol:"kgs",token:"—Å",space:""},lbp:{id:3552,name:"Lebanese Pound",symbol:"lbp",token:"ŸÑ.ŸÑ",space:""},mkd:{id:3556,name:"Macedonian Denar",symbol:"mkd",token:"–¥–µ–Ω",space:""},myr:{id:2800,name:"Malaysian Ringgit",symbol:"myr",token:"RM",space:""},mur:{id:2816,name:"Mauritian Rupee",symbol:"mur",token:"‚Ç®",space:""},mxn:{id:2799,name:"Mexican Peso",symbol:"mxn",token:"$",space:""},mdl:{id:3555,name:"Moldovan Leu",symbol:"mdl",token:"L",space:""},mnt:{id:3558,name:"Mongolian Tugrik",symbol:"mnt",token:"‚ÇÆ",space:""},mad:{id:3554,name:"Moroccan Dirham",symbol:"mad",token:"ÿØ.ŸÖ.",space:""},mmk:{id:3557,name:"Myanma Kyat",symbol:"mmk",token:"Ks",space:""},nad:{id:3559,name:"Namibian Dollar",symbol:"nad",token:"$",space:""},npr:{id:3561,name:"Nepalese Rupee",symbol:"npr",token:"‚Ç®",space:""},twd:{id:2811,name:"New Taiwan Dollar",symbol:"twd",token:"NT$",space:""},nzd:{id:2802,name:"New Zealand Dollar",symbol:"nzd",token:"$",space:""},nio:{id:3560,name:"Nicaraguan C√≥rdoba",symbol:"nio",token:"C$",space:""},ngn:{id:2819,name:"Nigerian Naira",symbol:"ngn",token:"‚Ç¶",space:""},nok:{id:2801,name:"Norwegian Krone",symbol:"nok",token:"kr",space:" "},omr:{id:3562,name:"Omani Rial",symbol:"omr",token:"ÿ±.ÿπ.",space:""},pkr:{id:2804,name:"Pakistani Rupee",symbol:"pkr",token:"‚Ç®",space:" "},pab:{id:3563,name:"Panamanian Balboa",symbol:"pab",token:"B/.",space:""},pen:{id:2822,name:"Peruvian Sol",symbol:"pen",token:"S/.",space:""},php:{id:2803,name:"Philippine Peso",symbol:"php",token:"‚Ç±",space:""},pln:{id:2805,name:"Polish Z≈Çoty",symbol:"pln",token:"z≈Ç",space:""},gbp:{id:2791,name:"Pound Sterling",symbol:"gbp",token:"¬£",space:""},qar:{id:3564,name:"Qatari Rial",symbol:"qar",token:"ÿ±.ŸÇ",space:""},ron:{id:2817,name:"Romanian Leu",symbol:"ron",token:"lei",space:""},rub:{id:2806,name:"Russian Ruble",symbol:"rub",token:"‚ÇΩ",space:""},sar:{id:3566,name:"Saudi Riyal",symbol:"sar",token:"ÿ±.ÿ≥",space:""},rsd:{id:3565,name:"Serbian Dinar",symbol:"rsd",token:"–¥–∏–Ω.",space:""},sgd:{id:2808,name:"Singapore Dollar",symbol:"sgd",token:"S$",space:""},zar:{id:2812,name:"South African Rand",symbol:"zar",token:"R",space:" "},krw:{id:2798,name:"South Korean Won",symbol:"krw",token:"‚Ç©",space:""},ssp:{id:3567,name:"South Sudanese Pound",symbol:"ssp",token:"¬£",space:""},ves:{id:3573,name:"Sovereign Bolivar",symbol:"ves",token:"Bs.",space:""},lkr:{id:3553,name:"Sri Lankan Rupee",symbol:"lkr",token:"Rs",space:""},sek:{id:2807,name:"Swedish Krona",symbol:"sek",token:"kr",space:" "},chf:{id:2785,name:"Swiss Franc",symbol:"chf",token:"Fr",space:". "},thb:{id:2809,name:"Thai Baht",symbol:"thb",token:"‡∏ø",space:""},ttd:{id:3569,name:"Trinidad and Tobago Dollar",symbol:"ttd",token:"$",space:""},tnd:{id:3568,name:"Tunisian Dinar",symbol:"tnd",token:"ÿØ.ÿ™",space:""},try:{id:2810,name:"Turkish Lira",symbol:"try",token:"‚Ç∫",space:""},ugx:{id:3570,name:"Ugandan Shilling",symbol:"ugx",token:"Sh",space:""},uah:{id:2824,name:"Ukrainian Hryvnia",symbol:"uah",token:"‚Ç¥",space:""},aed:{id:2813,name:"United Arab Emirates Dirham",symbol:"aed",token:"ÿØ.ÿ•",space:""},uyu:{id:3571,name:"Uruguayan Peso",symbol:"uyu",token:"$",space:""},uzs:{id:3572,name:"Uzbekistan Som",symbol:"uzs",token:"so'm",space:""},vnd:{id:2823,name:"Vietnamese Dong",symbol:"vnd",token:"‚Ç´",space:""}}},36:function(e,a){function n(a){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?e.exports=n=function(e){return typeof e}:e.exports=n=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},n(a)}e.exports=n},37:function(e,a,n){"use strict";n.r(a);var t=n(36),o=n.n(t),i=n(1);!function(){var e;if(void 0===window.jQuery||"1.11.1"!==window.jQuery.fn.jquery){var a=document.createElement("script");a.setAttribute("type","text/javascript"),a.setAttribute("src","https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"),a.readyState?a.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||n()}:a.onload=n,(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(a)}else e=window.jQuery,s();function n(){e=window.jQuery.noConflict(!0),s()}function t(e){var a=" "+document.cookie,n=" "+e+"=",t=null,o=0,i=0;return a.length>0&&-1!=(o=a.indexOf(n))&&(o+=n.length,-1==(i=a.indexOf(";",o))&&(i=a.length),t=unescape(a.substring(o,i))),t}function s(){var a,n,s=(a=t("_locale")||void 0,n=!("object"!=("undefined"==typeof Intl?"undefined":o()(Intl))||!Intl||"function"!=typeof Intl.NumberFormat),{toLocaleString:function(e,t){var o=Number(e);if(isNaN(o))return e;var i,s=t&&t.minDecimalPlaces,r=t&&t.maxDecimalPlaces;return void 0===s||void 0===r?(i=o,n?i.toLocaleString(a):i.toLocaleString()):function(e,t,o){return n?e.toLocaleString(a,{minimumFractionDigits:t,maximumFractionDigits:o}):e.toFixed(o)}(o,s,r)}});function r(e,a){var n=a;a=Math.pow(10,a);for(var t=["K","M","B","T"],o=t.length-1;o>=0;o--){var i=Math.pow(10,3*(o+1));if(i<=e){1e3==(e=Math.round(e*a/i)/a)&&o<t.length-1&&(e=1,o++),e=s.toLocaleString(Number(e),{minDecimalPlaces:n,maxDecimalPlaces:n}),e+=" "+t[o];break}}return e}function l(e,a){return"BTC"==a?function(e){e=e>=1e3?s.toLocaleString(Math.round(e)):e>=1?s.toLocaleString(e,{minDecimalPlaces:8,maxDecimalPlaces:8}):e<1e-8?Number(e).toExponential(4):s.toLocaleString(e,{minDecimalPlaces:8,maxDecimalPlaces:8});return e}(e):function(e){e=e>=1?e>=1e5?s.toLocaleString(Math.round(e)):s.toLocaleString(e,{minDecimalPlaces:2,maxDecimalPlaces:2}):e<1e-6?Number(e).toExponential(2):s.toLocaleString(e,{minDecimalPlaces:6,maxDecimalPlaces:6});return e}(e)}function m(e,a,n){var t=a,o={btc:"‡∏ø",usd:"$",eur:"‚Ç¨",cny:"¬•",gbp:"¬£",cad:"$",rub:"<img src='/static/img/fiat/ruble.gif'/>",hkd:"$",jpy:"¬•",aud:"$",brl:"R$",inr:"‚Çπ",krw:"‚Ç©",mxn:"$",idr:"Rp",chf:"Fr"};return e.toLowerCase()in o&&(t=o[e.toLowerCase()]+t),n&&(t=t+' <span style="font-size:12px">'+e.toUpperCase()+"</span>"),t}function c(e,a,n,t,o,i,c,d,p,u,b,y,k,g,h,f,v,x,w,S){var D=w?"https://s2.coinmarketcap.com/static/img/coins/64x64/"+w+".png":"https://files.coinmarketcap.com/static/widget/coins_legacy/64x64/"+e+".png",z="#009e73";u<0&&(z="#d94040"),u=s.toLocaleString(u,{minDecimalPlaces:2,maxDecimalPlaces:2});var C=g?"("+t+")":"",P=c?l(c,o):"?",L=u?'<span style="color:'+z+'">('+u+"%)":"",j=b?r(b,2):"?",_=y?r(y,2):"?",R="zh"==S?"Áî±CoinMarketCapËç£Âπ∏ÂëàÁé∞":"Powered by CoinMarketCap",M="";d?M='<br><span style="font-size: 14px; color: rgba(39, 52, 64, 0.5)">'+(p?l(p,d):"?")+" "+d+" </span>":M="";var $="utm_medium=widget&utm_campaign=cmcwidget&utm_source="+location.hostname+"&utm_content="+e,B='      <div style="border:2px solid #e1e5ea;border-radius: 10px;font-family: \'Helvetica Neue\',Helvetica,Arial,sans-serif;min-width:285px;">        <div style="display:flex;padding:12px 0px;">          <div style="width:33%;display: flex;justify-content: center;align-items: center;"><img style="width:46px;height:46px;" src="'+D+'"></div>          <div style="width:67%;border: none;text-align:left;line-height:1.4">              <span style="font-size: 18px;"><a href="https://coinmarketcap.com/currencies/'+n+"/?"+$+'" target="_blank">'+a+" "+C+'</a></span> <br>              <span style="font-size: 16px;">                <span style="font-size: 20px; font-weight: 500;">'+P+'</span>                <span style="font-size: 14px; font-weight: 500;">'+o+'</span>                <span style="margin-left:6px; font-weight: 500;">'+L+"</span>                "+M+"              </span>          </div>      </div>";return B+=function(e,a,n,t,o,i,s,r,l){var c=0,d=0,p="",u="",b="",y="zh"==l?"‰∫§ÊòìÈáèÔºà24Â∞èÊó∂Ôºâ":"VOLUME";if(e&&c++,a&&c++,n&&c++,0==c)return"";if(1==c&&(d=100),2==c&&(d=49.8),3==c&&(d=33),e){var k=0;(n||a)&&(k=1),p='                  <div style="text-align:center;float:left;width:'+d+"%;font-size:12px;padding:12px 0;border-right:"+k+'px solid #e1e5ea;line-height:1em;">                      '+("zh"==l?"ÊéíÂêç":"RANK")+'                      <br><br>                      <span style="font-size: 18px; ">'+i+"</span>                  </div>"}n&&(k=0,a&&(k=1),u='                  <div style="text-align:center;float:left;width:'+d+"%;font-size:12px;padding:12px 0 16px 0;border-right:"+k+'px solid #e1e5ea;line-height:1em;">                      '+("zh"==l?"Â∏ÇÂÄº":"MARKET CAP")+'                      <br><br>                      <span style="font-size: 16px; ">'+m(o,s,t)+"</span>                  </div>");a&&(b='                  <div style="text-align:center;float:left;width:'+d+'%;font-size:12px;padding:12px 0 16px 0;line-height:1em;">                      '+y+'                      <br><br>                      <span style="font-size: 16px; ">'+m(o,r,t)+"</span>                  </div>");return'<div style="border-top: 1px solid #e1e5ea;clear:both;">'+p+u+b+"</div>"}(h,f,v,x,i,k,j,_,S),B+='  <div style="border-top: 1px solid #e1e5ea;text-align:center;clear:both;font-size:12px;font-style:italic;padding:8px 0;">      <a href="https://coinmarketcap.com?'+$+'" target="_blank">'+R+"</a>  </div></div>"}e(document).ready((function(e){var a=Object.values(i.a);a.push({name:"Bitcoin",token:"BTC",space:" ",id:1,symbol:"BTC"}),e(".coinmarketcap-currency-widget").each((function(){var n=e(this).attr("data-currency"),t=e(this).data("currencyid"),o=e(this).attr("data-base").toUpperCase(),i=a.find((function(e){return e.symbol.toUpperCase()===o})).id,s=e(this).attr("data-secondary");s="BTC"==(s=s?s.toUpperCase():null)||"USD"==s?s:null;var r=a.find((function(e){return e.symbol.toUpperCase()===s})),l=void 0!==r?r.id:null,m=e(this).attr("data-stats");m=(m=m?m.toUpperCase():null)==o?o:"USD";var d=a.find((function(e){return e.symbol.toUpperCase()===m})).id,p=e(this).data("language");p=p||"en-us";var u,b=!1!==e(this).data("ticker"),y=!1!==e(this).data("rank"),k=!1!==e(this).data("marketcap"),g=!1!==e(this).data("volume"),h=!1!==e(this).data("statsticker"),f=this;u=t?"https://3rdparty-apis.coinmarketcap.com/v1/cryptocurrency/widget?id="+t+"&convert_id=1,2781,"+i:"https://widgets.coinmarketcap.com/v1/ticker/"+n+"/?ref=widget&convert_id="+i,e.get({url:u,success:function(a){if(a=a.length?a[0]:a.data,n||(n=a[t].name.toLowerCase()),t)var r=a[t],u=parseFloat(r.quote[i].price),v=s&&parseFloat(r.quote[l].price),x=parseInt(r.quote[d].market_cap),w=parseInt(r.quote[d].volume_24h),S=parseFloat(r.quote[i].percent_change_24h),D=a[t].name,z=a[t].symbol,C=a[t].cmc_rank;else{var P="price_"+o.toLowerCase(),L=s?"price_"+s.toLowerCase():null,j="market_cap_"+m.toLowerCase(),_="24h_volume_"+m.toLowerCase();u=parseFloat(a[P]),v=L?parseFloat(a[L]):null,x=parseInt(a[j]),w=parseInt(a[_]),S=Number(a.percent_change_24h),D=a.name,z=a.symbol,C=a.rank}var R=a[t].slug,M=c(n,D,R,z,o,m,u,s,v,S,x,w,C,b,y,g,k,h,t,p);e(f).html(M),e(f).find("a").css({"text-decoration":"none",color:"#1070e0"})}})}))}))}}()}});        |⁄  x|⁄É%   20240606121648-8l_⁄  I≈‰v	9   https://files.coinmarketcap.com/static/widget/currency.js      Œ:  !function(e){var a={};function n(t){if(a[t])return a[t].exports;var o=a[t]={i:t,l:!1,exports:{}};return e[t].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=a,n.d=function(e,a,t){n.o(e,a)||Object.defineProperty(e,a,{enumerable:!0,get:t})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,a){if(1&a&&(e=n(e)),8&a)return e;if(4&a&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(n.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&a&&"string"!=typeof e)for(var o in e)n.d(t,o,function(a){return e[a]}.bind(null,o));return t},n.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(a,"a",a),a},n.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},n.p="",n(n.s=37)}({1:function(e,a,n){"use strict";a.a={usd:{id:2781,name:"United States Dollar",symbol:"usd",token:"$",space:""},all:{id:3526,name:"Albanian Lek",symbol:"all",token:"L",space:""},dzd:{id:3537,name:"Algerian Dinar",symbol:"dzd",token:"ÿØ.ÿ¨",space:""},ars:{id:2821,name:"Argentine Peso",symbol:"ars",token:"$",space:""},amd:{id:3527,name:"Armenian Dram",symbol:"amd",token:"÷è",space:""},aud:{id:2782,name:"Australian Dollar",symbol:"aud",token:"$",space:""},azn:{id:3528,name:"Azerbaijani Manat",symbol:"azn",token:"‚Çº",space:""},bhd:{id:3531,name:"Bahraini Dinar",symbol:"bhd",token:".ÿØ.ÿ®",space:""},bdt:{id:3530,name:"Bangladeshi Taka",symbol:"bdt",token:"‡ß≥",space:""},byn:{id:3533,name:"Belarusian Ruble",symbol:"byn",token:"Br",space:""},bmd:{id:3532,name:"Bermudan Dollar",symbol:"bmd",token:"$",space:""},bob:{id:2832,name:"Bolivian Boliviano",symbol:"bob",token:"Bs.",space:""},bam:{id:3529,name:"Bosnia-Herzegovina Convertible Mark",symbol:"bam",token:"KM",space:""},brl:{id:2783,name:"Brazilian Real",symbol:"brl",token:"R$",space:""},bgn:{id:2814,name:"Bulgarian Lev",symbol:"bgn",token:"–ª–≤",space:""},khr:{id:3549,name:"Cambodian Riel",symbol:"khr",token:"·üõ",space:""},cad:{id:2784,name:"Canadian Dollar",symbol:"cad",token:"$",space:""},clp:{id:2786,name:"Chilean Peso",symbol:"clp",token:"$",space:""},cny:{id:2787,name:"Chinese Yuan",symbol:"cny",token:"¬•",space:""},cop:{id:2820,name:"Colombian Peso",symbol:"cop",token:"$",space:""},crc:{id:3534,name:"Costa Rican Col√≥n",symbol:"crc",token:"‚Ç°",space:""},hrk:{id:2815,name:"Croatian Kuna",symbol:"hrk",token:"kn",space:""},cup:{id:3535,name:"Cuban Peso",symbol:"cup",token:"$",space:""},czk:{id:2788,name:"Czech Koruna",symbol:"czk",token:"Kƒç",space:""},dkk:{id:2789,name:"Danish Krone",symbol:"dkk",token:"kr",space:". "},dop:{id:3536,name:"Dominican Peso",symbol:"dop",token:"$",space:""},egp:{id:3538,name:"Egyptian Pound",symbol:"egp",token:"¬£",space:""},eur:{id:2790,name:"Euro",symbol:"eur",token:"‚Ç¨",space:""},gel:{id:3539,name:"Georgian Lari",symbol:"gel",token:"‚Çæ",space:""},ghs:{id:3540,name:"Ghanaian Cedi",symbol:"ghs",token:"‚Çµ",space:""},gtq:{id:3541,name:"Guatemalan Quetzal",symbol:"gtq",token:"Q",space:""},hnl:{id:3542,name:"Honduran Lempira",symbol:"hnl",token:"L",space:""},hkd:{id:2792,name:"Hong Kong Dollar",symbol:"hkd",token:"$",space:""},huf:{id:2793,name:"Hungarian Forint",symbol:"huf",token:"Ft",space:" "},isk:{id:2818,name:"Icelandic Kr√≥na",symbol:"isk",token:"kr",space:""},inr:{id:2796,name:"Indian Rupee",symbol:"inr",token:"‚Çπ",space:""},idr:{id:2794,name:"Indonesian Rupiah",symbol:"idr",token:"Rp",space:" "},irr:{id:3544,name:"Iranian Rial",symbol:"irr",token:"Ô∑º",space:""},iqd:{id:3543,name:"Iraqi Dinar",symbol:"iqd",token:"ÿπ.ÿØ",space:""},ils:{id:2795,name:"Israeli New Shekel",symbol:"ils",token:"‚Ç™",space:""},jmd:{id:3545,name:"Jamaican Dollar",symbol:"jmd",token:"$",space:""},jpy:{id:2797,name:"Japanese Yen",symbol:"jpy",token:"¬•",space:""},jod:{id:3546,name:"Jordanian Dinar",symbol:"jod",token:"ÿØ.ÿß",space:""},kzt:{id:3551,name:"Kazakhstani Tenge",symbol:"kzt",token:"‚Ç∏",space:""},kes:{id:3547,name:"Kenyan Shilling",symbol:"kes",token:"Sh",space:""},kwd:{id:3550,name:"Kuwaiti Dinar",symbol:"kwd",token:"ÿØ.ŸÉ",space:""},kgs:{id:3548,name:"Kyrgystani Som",symbol:"kgs",token:"—Å",space:""},lbp:{id:3552,name:"Lebanese Pound",symbol:"lbp",token:"ŸÑ.ŸÑ",space:""},mkd:{id:3556,name:"Macedonian Denar",symbol:"mkd",token:"–¥–µ–Ω",space:""},myr:{id:2800,name:"Malaysian Ringgit",symbol:"myr",token:"RM",space:""},mur:{id:2816,name:"Mauritian Rupee",symbol:"mur",token:"‚Ç®",space:""},mxn:{id:2799,name:"Mexican Peso",symbol:"mxn",token:"$",space:""},mdl:{id:3555,name:"Moldovan Leu",symbol:"mdl",token:"L",space:""},mnt:{id:3558,name:"Mongolian Tugrik",symbol:"mnt",token:"‚ÇÆ",space:""},mad:{id:3554,name:"Moroccan Dirham",symbol:"mad",token:"ÿØ.ŸÖ.",space:""},mmk:{id:3557,name:"Myanma Kyat",symbol:"mmk",token:"Ks",space:""},nad:{id:3559,name:"Namibian Dollar",symbol:"nad",token:"$",space:""},npr:{id:3561,name:"Nepalese Rupee",symbol:"npr",token:"‚Ç®",space:""},twd:{id:2811,name:"New Taiwan Dollar",symbol:"twd",token:"NT$",space:""},nzd:{id:2802,name:"New Zealand Dollar",symbol:"nzd",token:"$",space:""},nio:{id:3560,name:"Nicaraguan C√≥rdoba",symbol:"nio",token:"C$",space:""},ngn:{id:2819,name:"Nigerian Naira",symbol:"ngn",token:"‚Ç¶",space:""},nok:{id:2801,name:"Norwegian Krone",symbol:"nok",token:"kr",space:" "},omr:{id:3562,name:"Omani Rial",symbol:"omr",token:"ÿ±.ÿπ.",space:""},pkr:{id:2804,name:"Pakistani Rupee",symbol:"pkr",token:"‚Ç®",space:" "},pab:{id:3563,name:"Panamanian Balboa",symbol:"pab",token:"B/.",space:""},pen:{id:2822,name:"Peruvian Sol",symbol:"pen",token:"S/.",space:""},php:{id:2803,name:"Philippine Peso",symbol:"php",token:"‚Ç±",space:""},pln:{id:2805,name:"Polish Z≈Çoty",symbol:"pln",token:"z≈Ç",space:""},gbp:{id:2791,name:"Pound Sterling",symbol:"gbp",token:"¬£",space:""},qar:{id:3564,name:"Qatari Rial",symbol:"qar",token:"ÿ±.ŸÇ",space:""},ron:{id:2817,name:"Romanian Leu",symbol:"ron",token:"lei",space:""},rub:{id:2806,name:"Russian Ruble",symbol:"rub",token:"‚ÇΩ",space:""},sar:{id:3566,name:"Saudi Riyal",symbol:"sar",token:"ÿ±.ÿ≥",space:""},rsd:{id:3565,name:"Serbian Dinar",symbol:"rsd",token:"–¥–∏–Ω.",space:""},sgd:{id:2808,name:"Singapore Dollar",symbol:"sgd",token:"S$",space:""},zar:{id:2812,name:"South African Rand",symbol:"zar",token:"R",space:" "},krw:{id:2798,name:"South Korean Won",symbol:"krw",token:"‚Ç©",space:""},ssp:{id:3567,name:"South Sudanese Pound",symbol:"ssp",token:"¬£",space:""},ves:{id:3573,name:"Sovereign Bolivar",symbol:"ves",token:"Bs.",space:""},lkr:{id:3553,name:"Sri Lankan Rupee",symbol:"lkr",token:"Rs",space:""},sek:{id:2807,name:"Swedish Krona",symbol:"sek",token:"kr",space:" "},chf:{id:2785,name:"Swiss Franc",symbol:"chf",token:"Fr",space:". "},thb:{id:2809,name:"Thai Baht",symbol:"thb",token:"‡∏ø",space:""},ttd:{id:3569,name:"Trinidad and Tobago Dollar",symbol:"ttd",token:"$",space:""},tnd:{id:3568,name:"Tunisian Dinar",symbol:"tnd",token:"ÿØ.ÿ™",space:""},try:{id:2810,name:"Turkish Lira",symbol:"try",token:"‚Ç∫",space:""},ugx:{id:3570,name:"Ugandan Shilling",symbol:"ugx",token:"Sh",space:""},uah:{id:2824,name:"Ukrainian Hryvnia",symbol:"uah",token:"‚Ç¥",space:""},aed:{id:2813,name:"United Arab Emirates Dirham",symbol:"aed",token:"ÿØ.ÿ•",space:""},uyu:{id:3571,name:"Uruguayan Peso",symbol:"uyu",token:"$",space:""},uzs:{id:3572,name:"Uzbekistan Som",symbol:"uzs",token:"so'm",space:""},vnd:{id:2823,name:"Vietnamese Dong",symbol:"vnd",token:"‚Ç´",space:""}}},36:function(e,a){function n(a){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?e.exports=n=function(e){return typeof e}:e.exports=n=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},n(a)}e.exports=n},37:function(e,a,n){"use strict";n.r(a);var t=n(36),o=n.n(t),i=n(1);!function(){var e;if(void 0===window.jQuery||"1.11.1"!==window.jQuery.fn.jquery){var a=document.createElement("script");a.setAttribute("type","text/javascript"),a.setAttribute("src","https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"),a.readyState?a.onreadystatechange=function(){"complete"!=this.readyState&&"loaded"!=this.readyState||n()}:a.onload=n,(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(a)}else e=window.jQuery,s();function n(){e=window.jQuery.noConflict(!0),s()}function t(e){var a=" "+document.cookie,n=" "+e+"=",t=null,o=0,i=0;return a.length>0&&-1!=(o=a.indexOf(n))&&(o+=n.length,-1==(i=a.indexOf(";",o))&&(i=a.length),t=unescape(a.substring(o,i))),t}function s(){var a,n,s=(a=t("_locale")||void 0,n=!("object"!=("undefined"==typeof Intl?"undefined":o()(Intl))||!Intl||"function"!=typeof Intl.NumberFormat),{toLocaleString:function(e,t){var o=Number(e);if(isNaN(o))return e;var i,s=t&&t.minDecimalPlaces,r=t&&t.maxDecimalPlaces;return void 0===s||void 0===r?(i=o,n?i.toLocaleString(a):i.toLocaleString()):function(e,t,o){return n?e.toLocaleString(a,{minimumFractionDigits:t,maximumFractionDigits:o}):e.toFixed(o)}(o,s,r)}});function r(e,a){var n=a;a=Math.pow(10,a);for(var t=["K","M","B","T"],o=t.length-1;o>=0;o--){var i=Math.pow(10,3*(o+1));if(i<=e){1e3==(e=Math.round(e*a/i)/a)&&o<t.length-1&&(e=1,o++),e=s.toLocaleString(Number(e),{minDecimalPlaces:n,maxDecimalPlaces:n}),e+=" "+t[o];break}}return e}function l(e,a){return"BTC"==a?function(e){e=e>=1e3?s.toLocaleString(Math.round(e)):e>=1?s.toLocaleString(e,{minDecimalPlaces:8,maxDecimalPlaces:8}):e<1e-8?Number(e).toExponential(4):s.toLocaleString(e,{minDecimalPlaces:8,maxDecimalPlaces:8});return e}(e):function(e){e=e>=1?e>=1e5?s.toLocaleString(Math.round(e)):s.toLocaleString(e,{minDecimalPlaces:2,maxDecimalPlaces:2}):e<1e-6?Number(e).toExponential(2):s.toLocaleString(e,{minDecimalPlaces:6,maxDecimalPlaces:6});return e}(e)}function m(e,a,n){var t=a,o={btc:"‡∏ø",usd:"$",eur:"‚Ç¨",cny:"¬•",gbp:"¬£",cad:"$",rub:"<img src='/static/img/fiat/ruble.gif'/>",hkd:"$",jpy:"¬•",aud:"$",brl:"R$",inr:"‚Çπ",krw:"‚Ç©",mxn:"$",idr:"Rp",chf:"Fr"};return e.toLowerCase()in o&&(t=o[e.toLowerCase()]+t),n&&(t=t+' <span style="font-size:12px">'+e.toUpperCase()+"</span>"),t}function c(e,a,n,t,o,i,c,d,p,u,b,y,k,g,h,f,v,x,w,S){var D=w?"https://s2.coinmarketcap.com/static/img/coins/64x64/"+w+".png":"https://files.coinmarketcap.com/static/widget/coins_legacy/64x64/"+e+".png",z="#009e73";u<0&&(z="#d94040"),u=s.toLocaleString(u,{minDecimalPlaces:2,maxDecimalPlaces:2});var C=g?"("+t+")":"",P=c?l(c,o):"?",L=u?'<span style="color:'+z+'">('+u+"%)":"",j=b?r(b,2):"?",_=y?r(y,2):"?",R="zh"==S?"Áî±CoinMarketCapËç£Âπ∏ÂëàÁé∞":"Powered by CoinMarketCap",M="";d?M='<br><span style="font-size: 14px; color: rgba(39, 52, 64, 0.5)">'+(p?l(p,d):"?")+" "+d+" </span>":M="";var $="utm_medium=widget&utm_campaign=cmcwidget&utm_source="+location.hostname+"&utm_content="+e,B='      <div style="border:2px solid #e1e5ea;border-radius: 10px;font-family: \'Helvetica Neue\',Helvetica,Arial,sans-serif;min-width:285px;">        <div style="display:flex;padding:12px 0px;">          <div style="width:33%;display: flex;justify-content: center;align-items: center;"><img style="width:46px;height:46px;" src="'+D+'"></div>          <div style="width:67%;border: none;text-align:left;line-height:1.4">              <span style="font-size: 18px;"><a href="https://coinmarketcap.com/currencies/'+n+"/?"+$+'" target="_blank">'+a+" "+C+'</a></span> <br>              <span style="font-size: 16px;">                <span style="font-size: 20px; font-weight: 500;">'+P+'</span>                <span style="font-size: 14px; font-weight: 500;">'+o+'</span>                <span style="margin-left:6px; font-weight: 500;">'+L+"</span>                "+M+"              </span>          </div>      </div>";return B+=function(e,a,n,t,o,i,s,r,l){var c=0,d=0,p="",u="",b="",y="zh"==l?"‰∫§ÊòìÈáèÔºà24Â∞èÊó∂Ôºâ":"VOLUME";if(e&&c++,a&&c++,n&&c++,0==c)return"";if(1==c&&(d=100),2==c&&(d=49.8),3==c&&(d=33),e){var k=0;(n||a)&&(k=1),p='                  <div style="text-align:center;float:left;width:'+d+"%;font-size:12px;padding:12px 0;border-right:"+k+'px solid #e1e5ea;line-height:1em;">                      '+("zh"==l?"ÊéíÂêç":"RANK")+'                      <br><br>                      <span style="font-size: 18px; ">'+i+"</span>                  </div>"}n&&(k=0,a&&(k=1),u='                  <div style="text-align:center;float:left;width:'+d+"%;font-size:12px;padding:12px 0 16px 0;border-right:"+k+'px solid #e1e5ea;line-height:1em;">                      '+("zh"==l?"Â∏ÇÂÄº":"MARKET CAP")+'                      <br><br>                      <span style="font-size: 16px; ">'+m(o,s,t)+"</span>                  </div>");a&&(b='                  <div style="text-align:center;float:left;width:'+d+'%;font-size:12px;padding:12px 0 16px 0;line-height:1em;">                      '+y+'                      <br><br>                      <span style="font-size: 16px; ">'+m(o,r,t)+"</span>                  </div>");return'<div style="border-top: 1px solid #e1e5ea;clear:both;">'+p+u+b+"</div>"}(h,f,v,x,i,k,j,_,S),B+='  <div style="border-top: 1px solid #e1e5ea;text-align:center;clear:both;font-size:12px;font-style:italic;padding:8px 0;">      <a href="https://coinmarketcap.com?'+$+'" target="_blank">'+R+"</a>  </div></div>"}e(document).ready((function(e){var a=Object.values(i.a);a.push({name:"Bitcoin",token:"BTC",space:" ",id:1,symbol:"BTC"}),e(".coinmarketcap-currency-widget").each((function(){var n=e(this).attr("data-currency"),t=e(this).data("currencyid"),o=e(this).attr("data-base").toUpperCase(),i=a.find((function(e){return e.symbol.toUpperCase()===o})).id,s=e(this).attr("data-secondary");s="BTC"==(s=s?s.toUpperCase():null)||"USD"==s?s:null;var r=a.find((function(e){return e.symbol.toUpperCase()===s})),l=void 0!==r?r.id:null,m=e(this).attr("data-stats");m=(m=m?m.toUpperCase():null)==o?o:"USD";var d=a.find((function(e){return e.symbol.toUpperCase()===m})).id,p=e(this).data("language");p=p||"en-us";var u,b=!1!==e(this).data("ticker"),y=!1!==e(this).data("rank"),k=!1!==e(this).data("marketcap"),g=!1!==e(this).data("volume"),h=!1!==e(this).data("statsticker"),f=this;u=t?"https://3rdparty-apis.coinmarketcap.com/v1/cryptocurrency/widget?id="+t+"&convert_id=1,2781,"+i:"https://widgets.coinmarketcap.com/v1/ticker/"+n+"/?ref=widget&convert_id="+i,e.get({url:u,success:function(a){if(a=a.length?a[0]:a.data,n||(n=a[t].name.toLowerCase()),t)var r=a[t],u=parseFloat(r.quote[i].price),v=s&&parseFloat(r.quote[l].price),x=parseInt(r.quote[d].market_cap),w=parseInt(r.quote[d].volume_24h),S=parseFloat(r.quote[i].percent_change_24h),D=a[t].name,z=a[t].symbol,C=a[t].cmc_rank;else{var P="price_"+o.toLowerCase(),L=s?"price_"+s.toLowerCase():null,j="market_cap_"+m.toLowerCase(),_="24h_volume_"+m.toLowerCase();u=parseFloat(a[P]),v=L?parseFloat(a[L]):null,x=parseInt(a[j]),w=parseInt(a[_]),S=Number(a.percent_change_24h),D=a.name,z=a.symbol,C=a.rank}var R=a[t].slug,M=c(n,D,R,z,o,m,u,s,v,S,x,w,C,b,y,g,k,h,t,p);e(f).html(M),e(f).find("a").css({"text-decoration":"none",color:"#1070e0"})}})}))}))}}()}});”ò¿ŸÅ  v        ,∆Ë      exports    œ—|¯
+      __esModule     :	∂#      create     ‡Õ      bind   /‘∫∂      usd    Ÿıt      United States Dollar   £Ì>      token      ‡sd÷      space      £’/Â      all	    Tû®      Albanian Lek
+   e«¢q      dzd    €º§!      Algerian Dinar     …v|      /. ,     ‚•+Í      ars    )¢«      Argentine Peso     ◊®ÑX      amd    éI•c      Armenian Dram      Wõ]v      è     Å–D      aud    $$√“      Australian Dollar      EîÆt      azn    ú≤›l      Azerbaijani Manat      ‹ÉÙ      º      M»l•      bhd    ´Êÿá      Bahraini Dinar     jˇ8∞      . /. (   Üipî      bdt    k_nΩ      Bangladeshi Taka   õ!      Û	     FÉ      byn    LºOB      Belarusian Ruble   »y      bmd     !hΩ	      Bermudan Dollar!    ó>e¡      bob"    Çb6L      Bolivian Boliviano#     (&∂!      Bs.$    :dëX      bam%    bE∑w#      Bosnia-Herzegovina Convertible Mark&    ãrÆ      brl'     ÑD-      Brazilian Real(     yÂÙª      bgn)    £XO      Bulgarian Lev*      òár<      ;2+   ∆‰J‰      khr,    —7x∆      Cambodian Riel-     C¿dU      €.     é·°$      cad/    -ê‡v      Canadian Dollar0    •,0      clp1    -√      Chilean Peso2   ı◊iœ      cny3    €ﬂ3-      Chinese Yuan4   Ÿˇi£      cop5    øÇˇ      Colombian Peso6     …¨kr      crc7    J&˜      Costa Rican ColÛn8      Y≠p      ° 9     Ö‚iÿ      hrk:    ^
+≥˚      Croatian Kuna;      ˇπﬁ      cup<    ¯ y,
+      Cuban Peso=     ˛˛      czk>    C ∆∂      Czech Koruna?   ∂Æ“Å      K @   1Vª      dkkA    ±π¯7      Danish KroneB   Eüî.      . C     È`ïx      dopD    Ñ3˝      Dominican PesoE     áõ$)      egpF    ÃØ]      Egyptian PoundG     F¶#ö      eurH    Ë9˜      EuroI   LË|<      ¨ J     ©ÃÍR      gelK    –W\Ö      Georgian LariL      Nwc\      æ M     %˜ñ≈      ghsN    ¶€z      Ghanaian CediO      Õ/pÃ      µ P     $ƒ8k      gtqQ    ¡œG      Guatemalan QuetzalR     ÜÔY¸      hnlS    ê—x5      Honduran LempiraT   Éˇ)B      hkdU    —÷Ëõ      Hong Kong DollarV   œXbÙ      hufW    — Ä      Hungarian ForintX   ´;¥ë      iskY    /.¶      Icelandic KrÛnaZ    i4
+      inr[    mëq;      Indian Rupee\   ±NE      π ]     (éô      idr^    O∞K$      Indonesian Rupiah_      ˆ lé      irr`    6≈Ÿ+      Iranian Riala   ßÁë      ¸˝b     §•t      iqdc    eìˇC      Iraqi Dinard    ’&Œ˘      9. /e     71∂      ilsf    €9      Israeli New Shekelg     ⁄Ù       ™ h     µkª      jmdi    XÚÒˇ      Jamaican Dollarj    “º7c      jpyk    }‘Õb      Japanese Yenl   d3›      jodm    <m¨      Jordanian Dinarn    JæoÄ      /. 'o     ‹0D      kztp    øº‰      Kazakhstani Tengeq      ¯úß      ∏ r     ò÷Ò      kess    BÔü8      Kenyan Shillingt    :†∞¬      kwdu    8»óG      Kuwaiti Dinarv      éJN      /. Cw     πˆÌu      kgsx    È‘Òø      Kyrgystani Somy     ˘À¸	      Az     A+Ë˚      lbp{    †]N      Lebanese Pound|     ¬±"      D. D}     ©R‘∫      mkd~    |!j      Macedonian Denar   ∫2gd      45=Ä     Í3~      myrÅ    !$˜ì      Malaysian RinggitÇ      ª¬      murÉ    %ç      Mauritian RupeeÑ    hü√      ® Ö     +§fj      mxnÜ    B•ê      Mexican Pesoá   ÇÌr       mdlà    ö4r      Moldovan Leuâ   lR·0      mntä    .•J£      Mongolian Tugrikã   æ€Îx      Æ å     áª!|      madç    ∆t{z      Moroccan Dirhamé    j;      /. E. è   Øy∫˜      mmkê    ‹˙ƒ      Myanma Kyatë    ˆ.‹ã      nadí    È*;      Namibian Dollarì    HHjÈ      nprî    ˝¯+=      Nepalese Rupeeï     5ì7?      twdñ    ^Æùó      New Taiwan Dollaró      ·<2!      NT$ò    PU·¿      nzdô    œÚ`K      New Zealand Dollarö     ìﬁâD      nioõ    @\xc      Nicaraguan CÛrdobaú     “_Ìß      ngnù    ií†∑      Nigerian Nairaû     ˆ0á      ¶ ü     ∂ïc¬      nok†    ƒZ4      Norwegian Krone°    L%KX      omr¢    °JË
+      Omani Rial£     ]ÿd•      1. 9. §   ∑\]û      pkr•    mq>:      Pakistani Rupee¶    ÑÄp/      pabß    Á·      Panamanian Balboa®      ”§5˝      B/.©    1§…z      pen™    üqJ      Peruvian Sol´   ‚ÚQ      S/.¨    H†§‰      php≠    ·ZRˆ      Philippine PesoÆ    ÈHíS      ± Ø     N9ó      pln∞    –øC1      P o l i s h   Z Bo t y ±   Ã]A      z B≤   ÿênÔ      gbp≥    ¥ãtâ      Pound Sterling¥     ªÄƒ’      qarµ    ≠?1[      Qatari Rial∂    ¸Û      1. B∑     mmAR      ron∏    C	‘†      Romanian Leuπ   î˜      lei∫    gQÄW      rubª    z3˝      Russian Rubleº      ï˝+æ      Ω Ω     ¨QMï      saræ    µÆy      Saudi Riyalø    õÿ      1. 3¿     ¿\"      rsd¡    %;P¢      Serbian Dinar¬      ¸®@=      48=. √   yﬂAº      sgdƒ    %õ¬      Singapore Dollar≈   ıôm      zar∆    ©y¯Ù      South African Rand«     ï˘R      krw»    òÈõ      South Korean Won…   !{÷a      ©       k\L      sspÀ    p"´      South Sudanese PoundÃ   DsY7      vesÕ    ó’ Q      Sovereign BolivarŒ      )"n      lkrœ    πFeÆ      Sri Lankan Rupee–   ÷O4è      sek—    ¨l      Swedish Krona“      ˙ó¢      chf”    ))4¶      Swiss Franc‘    Õ8’ı      thb’    ‰·Œd	      Thai Baht÷      áO¯      ?◊     °ò–¿      ttdÿ    p;ö#      Trinidad and Tobago DollarŸ     D;	      tnd⁄    "]h      Tunisian Dinar€     Q…•      /. *‹     tÀT      Turkish Lira›   jêÖ„      ∫ ﬁ     æû£¸      ugxﬂ    0∫ÉÈ      Ugandan Shilling‡   ˇ˝Ö!      uah·    2ﬁMw      Ukrainian Hryvnia‚      ∂8.      ¥ „     ef}z      aed‰    xúÆ      United Arab Emirates DirhamÂ    ÿ  D      /. %Ê     (ç≠:      uyuÁ    FTË˙      Uruguayan PesoË     :Ë      uzsÈ    b¢2      Uzbekistan SomÍ     tO&      so'mÎ   êW›      vndÏ    SÆ-k      Vietnamese DongÌ    ìnEû      ´ Ó     ¯2áâ      windowÔ     >Â/      jQuery     ⁄TÖ      1.11.1Ò     ˝f§       jqueryÚ     ∏OÄ      documentÛ   DC      createElementÙ      ó{⁄D      setAttributeı   5bH¡      text/javascriptˆ    ú∑»õ      src˜    ‹âÕ¿@      https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js¯   πUüï
+      readyState˘     ÂWÌ¬      onreadystatechange˙     Dï»á      complete˚   ƒM      loaded¸     áƒ{p      onload˝     XFZ      getElementsByTagName˛   ∑7Ma      headˇ   ï,Øp      documentElement    ≠$~      appendChild   <®
+      noConflict    _YNx      cookie    ⁄Eú¡      indexOf   ﬂY„	      substring     ˝∞ˆ      _locale   Ë9UÙ      minDecimalPlaces  
+0Ω      maxDecimalPlaces  ÿ8ª      toFixed	   qET      pow
+   &9!Ï      round     ”Ëç      BTC   ö'2∆      toExponential     =ÚÒU      btc   í∫/='      <img src='/static/img/fiat/ruble.gif'/>   RâDo      toLowerCase   \VÙ–       <span style="font-size:12px">    ¨‚s◊      toUpperCase   ŸÂ°      </span>   h,¢4      https://s2.coinmarketcap.com/static/img/coins/64x64/  j’Ó'      .png  \ü¯A      https://files.coinmarketcap.com/static/widget/coins_legacy/64x64/     «—\|      #009e73   ÛóyZ      #d94040   ›o∫      <span style="color:   ÎWë      ">(   ÇÍñÌ      %)    „Ÿ;È      1uC o i n M a r k e t C a p cÉx^HT∞s  O‘9†      Powered by CoinMarketCap  II8g@      <br><span style="font-size: 14px; color: rgba(39, 52, 64, 0.5)">  "z=Æ       </span>  —CP74      utm_medium=widget&utm_campaign=cmcwidget&utm_source=   0+QA      location!  î(~      hostname"  p⁄D.      &utm_content=#     Øëµ D           <div style="border:2px solid #e1e5ea;border-radius: 10px;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;min-width:285px;">        <div style="display:flex;padding:12px 0px;">          <div style="width:33%;display: flex;justify-content: center;align-items: center;"><img style="width:46px;height:46px;" src="$  bªíÁ±      "></div>          <div style="width:67%;border: none;text-align:left;line-height:1.4">              <span style="font-size: 18px;"><a href="https://coinmarketcap.com/currencies/%     n<2é      /?&    hòG      " target="_blank">'    =çö~      </a></span> <br>              <span style="font-size: 16px;">                <span style="font-size: 20px; font-weight: 500;">(    )[ÖH      </span>                <span style="font-size: 14px; font-weight: 500;">)  !íiÏH      </span>                <span style="margin-left:6px; font-weight: 500;">*  π≥ñ      </span>                +   Œ∏Éé1                    </span>          </div>      </div>,     }>8	      §Nfœëˇ2 4 \ˆe	ˇ-    *ì¢ì      VOLUME.    ˛cßeA                        <div style="text-align:center;float:left;width:/     ÷%<-      %;font-size:12px;padding:12px 0;border-right:0     @yÖ‰9      px solid #e1e5ea;line-height:1em;">                      1     ò;#      ícT2  	¥!      RANK3  ÒZÏÃT                            <br><br>                      <span style="font-size: 18px; ">4  ΩÕ¿X      </span>                  </div>5   Qµ4      %;font-size:12px;padding:12px 0 16px 0;border-right:6  7’2|      ^<P7  •
+∂
+      MARKET CAP8    ≤‚+ÏT                            <br><br>                      <span style="font-size: 16px; ">9  hõ¨O      %;font-size:12px;padding:12px 0 16px 0;line-height:1em;">                      :   Õ# 7      <div style="border-top: 1px solid #e1e5ea;clear:both;">;   ©è^      </div><    ¯)£        <div style="border-top: 1px solid #e1e5ea;text-align:center;clear:both;font-size:12px;font-style:italic;padding:8px 0;">      <a href="https://coinmarketcap.com?=   ‘Ç⁄A      </a>  </div></div>>    ¢Ñ
+      ready?     Ñu2      push@  dü1,      BitcoinA   æﬂäZ      .coinmarketcap-currency-widgetB    A¢Ωê      attrC  æ¢W      data-currencyD     6ó(Å      dataE  µHM
+      currencyidF    õ¡#	      data-baseG     röéÒ      data-secondaryH    ÊÔ~G      USDI   `â!≥
+      data-statsJ    H-¨      en-usK     3ﬁué      tickerL    |M0!      rankM  ¡í —	      marketcapN     ¬<JŒ      volumeO    ôØ`      statstickerP   ¶qâÜD      https://3rdparty-apis.coinmarketcap.com/v1/cryptocurrency/widget?id=Q  l[|Y      &convert_id=1,2781,R   F~,      https://widgets.coinmarketcap.com/v1/ticker/S  ∂`∞∏      /?ref=widget&convert_id=T  …©\9      successU    =m´      quoteV     Í÷r⁄      priceW     cjƒ_
+      market_capX    ‘û©
+      volume_24hY    ãß˛Ù      percent_change_24hZ    è◊¬      cmc_rank[  ‰õ¸Ö      price_\    î•Lﬁ      market_cap_]   a˙4      24h_volume_^   MÂø      slug_  ‘„X      html`  >ü      cssa   ÛÂ¬      text-decorationb   ,Ω      nonec  Ï
+ó      colord     W@Çq      #1070e0e   ﬂ∫>      n.df   ˘Dz|      n.rg   O«1      n.th   gÂ–      n.t/<i     5ïã       n.nj   È)˝¸      n.n/a<k    |T,      n.on   µ∂ü      37/<o  Ã^Ø      37/a.onreadystatechanget   ª$Òπ      37/s/toLocaleString/<w     ËœÜ÷      37/s/l/<z  ™ßÍ≠	      37/s/c/B<{     _øŸ*      37/s/<|    ·lÕ      37/s/</<}  ∞&p∞      37/s/</</i<~   5‹ ä      37/s/</</r<   …±1:      37/s/</</d<     %   Î  %   %           r   Ô%,â                                                                                                                                                                       	                 
+                                                                                                                                                                      	                                                                                                                                                                                                              !                 "                 #                 $                       ≥Oåc                         e `a `n `            t  o               e  a  t               e              e `a  t  o               a              e `a                                               e  a               e  a  n               e `a  n `             a               e               e              e  a  n  t  o `i `              e `a  n `t `s `                            e  a  n  t  o  i                 a `n `s `r `l `m `c `            e  a  n  t  o  i               e  a               e               e              e  a  n  t  o              e  a  n  t  o  i  c  d  p  u  b  y  k  g  h  f  v  x  w  S  C  P  M  j  R  _  B  L  D  $  z            	 	 e  a  n  t  o  i  s  r  l  c  d  p  u  b  y  k              e  t  o  i  s  r               e  t  o               e `a `              n `t `o `i `s `r  l `m `d `p `u  b `y `k `g `h `f `Ñ                e               e               e              a  r  u  v  x  w  S  D  z  C  P  L  j  _  R  M                Ñ   Ø¬0∞IÙ$KEÆ˙ö         i  l                        
+     ë   ≈          6          6     
+     ë   6          ]   —      
+                  !  $  &  (  +  .  0  2  4  6  9  ;  =  @  C  E  G  J  M  P  R  T  V  X  Z  ]  _  b  e  h  j  l  o  r  t  w  z  }  Ä  Ç  Ö  á  â  å  è  ë  ì  ï  ò  ö  ú  ü  °  §  ¶  ©  ¨  Ø  ≤  ¥  ∑  ∫  Ω  ¿  √  ≈  «     Ã  Œ  –  “  ‘  ◊  Ÿ    ﬁ  ‡  „  Ê  Ë  Î          ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^              ç j  ^         
+          
+         
+         
+         
+         P       G  2  ≤  .  ∫  T  j    &  Z  «  Ö  ]  “     
+                    
+     U  G         j      ç ^     
+     0  T    
+    a c á&’™ç!´!%   h     <Ô⁄h   (                          l    8   l   >$l   >%l   >r ›§`Ä êÄ pÄ ˇˇÂuPÄ 6πPÄ  ÅÁ]ˇ  ∂   	                     ª  Ã   ›l   Ã   ›8   Ã   ›ø   ø   K   ›ø   ø   K   ›ø   l   K   ›ø   l   K   ›ø   l	   K
+   ›ø   l   K   ›ø   l   K   ›ø      K   ›ø    ø   %K   v ›§î 
+`Ä  â`ê ê ê Pê Ä  Øê Ä $ê oê Dê ˇˇˇ˛P	PÄÄÏ   NåôÏ   ó                        ø   ∫  Jô   ñ   ø   ∫  JI   °ñ   ø   ∫  8   ∫  ;   ;   8   ;   MÀ   ›ø   ∫  JﬂI   ‚º   I   º   º   I   ø   v ›º   K   ›º   I   °§ `ì `oˇˇˇ´`ê ` ê 
+	
+	
+ˇˇˇÂP		QÄÄÄî   ~–Bî   O                  	       ø   ﬂI   ‚∫  ∫ r ú3   ñ   ›π   ﬂI   ‚∫  ∫ 8   ;   ∫ ;   v ñ	   ›§ `ˇˇˇ¸Pö ˇˇˇﬁP	)PÄÄÄ»   ÛÔœÕ»   Å                            π   õK   ñ   ›π   I   õ6   ñ   ›π   ﬂI   ‚∫  π   I   8      ;   v ñ   ›π   ﬂI   ‚∫  	   8
+   ;   v ›§ `≥ 9
+
+ˇˇˇ€P	6ˇˇˇ·P)PÄH  /∑ßÊ8  ã  	             #      ª  Ã   ›∫ õ   ñ   ›ø   ø   r Ã   ñ   ›∫ ô   ñ   ø   °ñ   ∫ õ<   ñ   ›   ø   õ%   ñ
+   ›ø   õ   ñ   ›ø   I   ñ   ô   ñ   ø   °ñ   π   ﬂI   ‚r À   ›ø  ﬂI   ‚º   v ›π   ﬂI   ‚º      8   ;	   ø   ;
+   v ›∫ õ   ñ   ›   ø   ñ   ô^   ñ   ø   ]ó   ^_ö@   ñ   À  ø  ﬂI   ‚º   º  l   ﬂI   ‚º  r v ››òΩˇˇˇñ#   `ñ#   º   °§		`ï ˇˇˇ˛P`Ä  ˚ˇˇˇ`î ª `Ä  ∆ˇˇˇI`P`ˇˇˇ˛P	
+ˇˇˇ÷P4î ñ `ò ˇˇˇ˜`#ˇˇˇˆPˇˇˇ·PˇˇˇÔë >`QÄÄH        2  H   4   ≈‘a4                            ø   ∫  J°§ `	QÄÄ¨   í
+w¨   s   	                    ª  Ã   ›ø   õ   ñ   ›ø   I   ñ   ô   ñ   l   ò   ñ   l   ñ   À   ›ø  ﬂI   ‚º      º   v ›º   °§	
+`« B` 	ˇˇˇ¯PQ4   µZ_4                             ø   I   °§ `
+QÄ0   …◊-l0                              ø   °§ `QÄÄT   Àc=T   !                         π   I   I   ﬂI   ‚∫  ∫ r °§ `ñ ,ˇˇˇ˘P	QÄ®  ∞¸23®  !                 ç      ∫ 8   8   ›
+;      ;      ;      ;	   
+   ;   ;   8   ∆;      ;      ;      ;	   
+   ;   ;   8   —;      ;      ;      ;	   
+   ;   ;   8   ;      ;      ;      ;	   
+   ;   ;   8   «;      ;      ;      ;	   
+   ;   ;   8   ﬁ
+;      ;      ;      ;	   
+   ;   ;   8   »;      ;       ;   !   ;	   
+   ;   ;    8"   À;   #   ;   $   ;   %   ;	   
+   ;   ;$   8&    ;   '   ;   (   ;   )   ;	   
+   ;   ;(   8*   Õ;   +   ;   ,   ;   -   ;	   
+   ;   ;,   8.   Ã;   /   ;   0   ;      ;	   
+   ;   ;0   81   ;   2   ;   3   ;   4   ;	   
+   ;   ;3   85   …;   6   ;   7   ;   8   ;	   
+   ;   ;7   89   ﬂ
+;   :   ;   ;   ;   <   ;	   
+   ;   ;;   8=   ˛
+;   >   ;   ?   ;   @   ;	   
+   ;   ;?   8A   ›;   B   ;   C   ;   D   ;	   
+   ;   ;C   8E   ‡
+;   F   ;   G   ;      ;	   
+   ;   ;G   8H   ‚
+;   I   ;   J   ;      ;	   
+   ;   ;J   8K   „
+;   L   ;   M   ;   N   ;	   
+   ;   ;M   8O   ;   P   ;   Q   ;      ;	   
+   ;   ;Q   8R   Œ;   S   ;   T   ;   U   ;	   
+   ;   ;T   8V   ˇ
+;   W   ;   X   ;   Y   ;	   
+   ;   ;X   8Z   œ;   [   ;   \   ;      ;	   
+   ;   ;\   8]   ‰
+;   ^   ;   _   ;   `   ;	   
+   ;   ;_   8a   Â
+;   b   ;   c   ;   d   ;	   e   ;   ;c   8f   –;   g   ;   h   ;      ;	   
+   ;   ;h   8i   “;   j   ;   k   ;   l   ;	   
+   ;   ;k   8m   Ê
+;   n   ;   o   ;   p   ;	   
+   ;   ;o   8q   ”;   r   ;   s   ;   t   ;	   
+   ;   ;s   8u   ‘;   v   ;   w   ;   x   ;	   
+   ;   ;w   8y   ’;   z   ;   {   ;   |   ;	   
+   ;   ;{   8}   ÷;   ~   ;      ;      ;	   
+   ;   ;   8Ä   Ë
+;   Å   ;   Ç   ;      ;	   
+   ;   ;Ç   8É   È
+;   Ñ   ;   Ö   ;   Ü   ;	   á   ;   ;Ö   8à   ;   â   ;   ä   ;   d   ;	   
+   ;   ;ä   8ã   Ï
+;   å   ;   ç   ;   é   ;	   
+   ;   ;ç   8è   Í
+;   ê   ;   ë   ;   í   ;	   á   ;   ;ë   8ì   ÿ;   î   ;   ï   ;   ñ   ;	   
+   ;   ;ï   8ó   ◊;   ò   ;   ô   ;   ö   ;	   
+   ;   ;ô   8õ   Î
+;   ú   ;   ù   ;   û   ;	   
+   ;   ;ù   8ü   Ÿ;   †   ;   °   ;      ;	   
+   ;   ;°   8¢   Ì
+;   £   ;   §   ;   N   ;	   
+   ;   ;§   8•   ⁄;   ¶   ;   ß   ;   ®   ;	   
+   ;   ;ß   8©   ﬂ;   ™   ;   ´   ;   ¨   ;	   
+   ;   ;´   8≠   €;   Æ   ;   Ø   ;   ∞   ;	   
+   ;   ;Ø   8±   ﬁ;   ≤   ;   ≥   ;   ¥   ;	   
+   ;   ;≥   8µ   ‹;   ∂   ;   ∑   ;   ∏   ;	   
+   ;   ;∑   8π   ‡;   ∫   ;   ª   ;   º   ;	   
+   ;   ;ª   8Ω   ‰;   æ   ;   ø   ;   ¿   ;	   
+   ;   ;ø   8¡   
+;   ¬   ;   √   ;   ƒ   ;	   
+   ;   ;√   8≈    ;   ∆   ;   «   ;   »   ;	   
+   ;   ;«   8…   Ô
+;       ;   À   ;      ;	   
+   ;   ;À   8Ã   „;   Õ   ;   Œ   ;      ;	   
+   ;   ;Œ   8œ   Ê;   –   ;   —   ;   “   ;	   
+   ;   ;—   8”   ‚;   ‘   ;   ’   ;   ÷   ;	   
+   ;   ;’   8◊   Â;   ÿ   ;   Ÿ   ;   ⁄   ;	   
+   ;   ;Ÿ   8€   Á;   ‹   ;   ›   ;      ;	   
+   ;   ;›   8ﬁ   È;   ﬂ   ;   ‡   ;   »   ;	   
+   ;   ;‡   8·   ˚
+;   ‚   ;   „   ;   ‰   ;	   
+   ;   ;„   8Â   Ú
+;   Ê   ;   Á   ;      ;	   
+   ;   ;Á   8Ë   Ë;   È   ;   Í   ;   Î   ;	   
+   ;   ;Í   8Ï   ;   Ì   ;   Ó   ;   Ô   ;	   
+   ;   ;Ó   8   Ò
+;   Ò   ;   Ú   ;   d   ;	   á   ;   ;Ú   8Û   Í;   Ù   ;   ı   ;   ˆ   ;	   
+   ;   ;ı   8˜   Ù
+;   ¯   ;   ˘   ;   »   ;	   á   ;   ;˘   8˙   Î;   ˚   ;   ¸   ;   ˝   ;	   
+   ;   ;¸   8˛   ;   ˇ   ;      ;     ;	   
+   ;   ;   8  Û
+;     ;     ;     ;	   
+   ;   ;  8  ı
+;     ;     ;   	  ;	   
+   ;   ;  8
+  Á
+;     ;     ;   l   ;	   
+   ;   ;  8  Ï;     ;     ;     ;	   
+   ;   ;  8  ;     ;     ;     ;	   
+   ;   ;  8  ˆ
+;     ;     ;     ;	   
+   ;   ;  8  Ó;     ;     ;     ;	   
+   ;   ;  8  Ì;     ;     ;      ;	   
+   ;   ;  8!  ¯
+;   "  ;   #  ;   $  ;	   
+   ;   ;#  8%  ¸
+;   &  ;   '  ;   (  ;	   á   ;   ;'  8)  Ó
+;   *  ;   +  ;   ,  ;	   
+   ;   ;+  8-  Ô;   .  ;   /  ;   l   ;	   
+   ;   ;/  80  ı;   1  ;   2  ;   4   ;	   
+   ;   ;2  83  ·;   4  ;   5  ;   6  ;	   
+   ;   ;5  87  ˜
+;   8  ;   9  ;   d   ;	   á   ;   ;9  8:  ·
+;   ;  ;   <  ;   =  ;	   e   ;   ;<  8>  ˘
+;   ?  ;   @  ;   A  ;	   
+   ;   ;@  8B  Ò;   C  ;   D  ;      ;	   
+   ;   ;D  8E  ;   F  ;   G  ;   H  ;	   
+   ;   ;G  8I  ˙
+;   J  ;   K  ;   L  ;	   
+   ;   ;K  8M  Ú;   N  ;   O  ;   ∞   ;	   
+   ;   ;O  8P  ;   Q  ;   R  ;   S  ;	   
+   ;   ;R  8T  ˝
+;   U  ;   V  ;   W  ;	   
+   ;   ;V  8X  Û;   Y  ;   Z  ;      ;	   
+   ;   ;Z  8[  Ù;   \  ;   ]  ;   ^  ;	   
+   ;   ;]  8_  ;   `  ;   a  ;   b  ;	   
+   ;   ;a  Lc  ›§ `
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï 
+PÄÄÄT   V±T   %   	                     ª  Ã   ›l   Ã   ›ø   ø   K   ›§î Ä `ê PÄÄÄº   ¿ÒSº   }                            π   õ   ñ   ›   π   I   ñ   ô#   ñ	   ø   l   Ã   K   ò   ñ
+   ø   l   Ã   K   ñ   ›ø    ∫  r °§ ` ó ” Ä  Ωˇˇˇ˛PQÄÄÄ0   [É√ë0                            ∫  °§ ` QÄ®   P˝˙8®   u                         ∫  õI   ñ   ›   π   õ2   ñ   ›∫  I   π   õ   ñ	   ›∫  π   I   ñ   ô   ñ      ò   ñ   ∫  ñ   °§ `ì ö î © 	Q†   Kd†   P                        ∫ ﬂI   ‚∫ v ›∫  $r À   ›∫ ﬂI   ‚º   r Ã   ›∫  r Ã   ›l    r  ›§ `
+ˇˇˇ˛P`P`
+ˇˇˇ˛P	`P	`Ä ÂPPÄ¥  öøc¥  U                !        l   Ã   ›l   Ã   ›l   Ã   ›π   I   ú%   ñ   ›   π   I   I   I   ñ	   ôÿ   ñ
+   π	   ﬂI
+   ‚   r À   ›º   ﬂI   ‚      v ›º   ﬂI   ‚      v ›º   I   ô   ñ   º   l   L   ò   ñ   º   ø   L   ñ   ›π	   ﬂI   ‚   r Jú   ñ   ›π	   I   ñ   ﬂI   ‚º   v ›ò$   ñ   π   I   Ã   ›ø    v  ›ñ!   §° `	õ § `ë 	P`ï P'ï PWø vë 	P¶ GˇˇˇÙP`ê V	Ä PÄÄ   ÖüHÄ   O                        ‹À   ›   º   I   õ   ñ   ›   º   I   ñ   ú   ñ   ›ø    v  ñ   ›§`ö † P	PÄT   5oRUT   &                          π   I   ﬂI   ‚r Ã   ›ø    v  ›§ `í P	VPd  e~„d  Ù                           π   I   %À   ›   ∫  %   %À  ›À  ›À  ›À  ›º   I   õ¢   ñ   ›ˇº   ﬂI   ‚º  r À  õ~   ñ   ›º  º  I   %-À  ›ˇº   ﬂI   ‚   º  r À  õ   ñ   ›º   I   À  ñ   ›π    º   ﬂI	   ‚º  º  r r À  ñ   ›º  °§ 
+`ê ````` ò ˇˇˇ¯Pì î ê ˇˇˇÙP¶ ˇˇˇÙPˇˇˇıPQh  N|Ï’h                           l   Ã   ›l   Ã   ›l   Ã   ›l   Ã   ›ø      r ú   ñ   ›ñ   Ã   ›      π   ô   ñ      ò   ñ   ø   r   π   r ñ	   ú-   ñ   ›π   ú   ñ   ›	   π   I
+   ñ   Ã   ›8   l   ;   Ã   ›ø   π   r ﬂI   ‚l   v ›§¨ `P ¶ PˇˇˇˇPî 	ñ ò ê Ä à`ˇˇˇˇP
+ˇˇˇ˘PÄ ÊPÄÄ  ⁄ëVEÄ           	              π    ∫  r À   ›π    º   r ô   ñ   ∫  °ñ   ∫ õ   ñ   ›∫ I   ñ   À  ›∫ õ   ñ   ›∫ I   ñ	   À  ›º  ú   ñ   ›º  ñ   ôW   ñ   º   À  ›ø   ô"   ñ   º  ﬂI   ‚ø   r ò   ñ   º  ﬂI   ‚r  ñ   ò   ñ   l    º   º  º  r ñ   °§ `ˇˇˇˇP`ˇˇˇˇP`Ä  ˇˇˇˇ`† `† ` 	ê 	î 	ö ˇˇˇÒPò Pò ˇˇˇ˚PQÄò   Õƒ/ò   W                         ø   ô6   ñ   ∫  ﬂI   ‚ø   8   ∫ ;   ∫ ;   r ò   ñ   ∫  ﬂI   ‚∫ r ñ   °§ `ô ˇˇˇ÷Pó Nˇˇˇ¯P
+QÄÄ,  ∑Üıt  |         
+       )      ∫ À   ›π   ﬂI   ‚
+∫ r   ›g      h       h      h      h   À  ›º  I   &À  ›ó   º  ô  ñ   π   ﬂI   ‚
+º  %)r À  ›º  ∫  ôæ   ñ   Ëπ   ﬂI   ‚∫  ∫ )º  *r ∫ *   õ5   ñ   ›º  º  I   &õ   ñ   ›   ›º  /'À  ñ   ›ø   ﬂI	   ‚π
+    ∫  r 8   º   ;   º   ;   r    ›∫     º  º  J%%-   ›ò   ñ'   º  /(À  ›òı˛ˇˇñ)   ∫  °§ ``ˇˇˇ˘P `≤ `ê fê `ˇˇˇˆP``ˇˇˇˆPó ó ê ˇˇˇ˘P
+		ˇˇˇ”PBê `
+ˇˇˇO`ï Ä  ∏`QÄ,         b     Ä   >ùnúÄ   <                            ∫ ô   ñ   l    ∫  r ò   ñ   l    ∫  r ñ   °§ `î Ä  ‡ˇˇˇˇPì Ä  ‚ˇˇˇˇPQÄÄÄL  O<àL  Ê                         ∫  Ëô0   ñ   ø   ﬂI   ‚π   ﬂI   ‚∫  r r ò¶   ñ   ∫  ô4   ñ	   ø   ﬂI   ‚∫  8   ;   ;   r òh   ñ   ∫  
+:å0‚éyE>ô'   ñ   π    ∫  r ﬂI   ‚r ò/   ñ   ø   ﬂI   ‚∫  8	   ;   ;   r ñ      ›∫  °§ `ù ˇˇˇ˙PˇˇˇÏP® 4ˇˇˇ€P™ Hˇˇˇ˘P
+Pô "ˇˇˇ€P:`QÄT  TßBT  Ï                         ∫  ôv   ñ   ∫  	†Üô0   ñ   ø   ﬂI   ‚π   ﬂI   ‚∫  r r ò/   ñ	   ø   ﬂI   ‚∫  8   ;   ;   r ñ   òh   ñ   ∫  
+çÌµ†˜∆∞>ô'   ñ   π    ∫  r ﬂI   ‚r ò/   ñ   ø   ﬂI   ‚∫  8	   ;   ;   r ñ      ›∫  °§ `≠ ˇˇˇ˙PˇˇˇÏPô /ˇˇˇ€PØ Hˇˇˇ˘P
+Pô "ˇˇˇ€P:`QÄÄÄî  ®ﬂv¸î  ,                       ∫ À   ›8      ;      ;      ;      ;	   
+   ;      ;      ;      ;      ;      ;      ;      ;      ;      ;      ;      ;   À  ›∫  ﬂI   ‚r  º  !õ&   ñ   ›º  ∫  ﬂI   ‚r  Jº   %À   ñ   ›∫ õ-   ñ   ›º      %∫  ﬂI   ‚r  %    %À   ñ   ›º   °§ ``
+
+
+
+
+
+
+.
+
+
+
+	
+
+
+
+	
+` 
+Pû 
+Pò )
+Pî QÄÄÄ  €?âÓ  /                A       ∫ ô   ñ      ∫ %   %ò   ñ      ∫  %   %ñ   À  ›   À
+  ›∫	 õ   ñ   ›   À
+  ñ   ›ø   ﬂI   ‚∫	 8   ;   ;	   r  	 ›∫ ô   ñ   
+   ∫ %   %ò   ñ      ñ   À   ›∫ ô   ñ   ø    ∫ ∫ r ò   ñ      ñ   À  ›∫	 ô)   ñ      º
+  %   %∫	 %   %ò   ñ      ñ   À  ›∫
+ ô   ñ   ø    ∫
+ r ò   ñ      ñ   À  ›∫ ô   ñ   ø    ∫ r ò   ñ      ñ   À  ›   ∫ ô   ñ      ò   ñ      ñ   À  ›   À  ›∫ ôY   ñ      ∫ ô   ñ   ø    ∫ ∫ r ò   ñ      ñ   %   %∫ %   %À  ò   ñ#      À  ñ#   ›   π   I   %   %∫  %À	  ›   º  %   %∫ %   %º	  %   %∫ %   %º   %   %º  %    %∫ %!   %º  %"   %º  %#   %À  ›º  l$    ∫ ∫ ∫ ∫ ∫ ∫ º  º  ∫ r	 %-À  ›º  %   º	  %   %º  %&   %%-À  °§ 0`í 9ô Mî `
+
+`ü ˇˇˇ€P@`í £ `ì ˇˇˇ¸Pú `í £ `ì ˇˇˇ˛Pú `ì ˇˇˇ˛Pú `¨ 4`
+`í Hì ˇˇˇ¸Pû ß `7ë "	`Ä IÄ  ∂
+
+Ä  ÉM
+Mê 6` 
+Ä ÏˇˇˇÔP
+	Ä  ©ë Qî  _¨!Nî  ◊                9   	    À   ›À  ›   À  ›   À  ›   À  ›   ∫ ô   ñ      ò   ñ      ñ   À  ›∫  õ   ñ   ›º   /'À   ñ   ›∫ õ   ñ   ›º   /'À   ñ   ›∫ õ   ñ	   ›º   /'À   ñ   ›º   ô   ñ      °ñ   º   õ   ñ   ›dÀ  ñ   ›º   õ   ñ   ›
+fffffÊH@À  ñ   ›º   õ   ñ   ›!À  ñ   ›∫  ôô   ñ   À  ›∫ ú   ñ   ›∫ ñ   õ   ñ   ›À  ñ   ›   º  %   %º  %   %   ∫ ô   ñ      ò   ñ   	   ñ   %
+   %∫ %   %À  ›ñ    ∫ õï   ñ!   ›À  ›∫ õ   ñ"   ›À  ñ"   ›   º  %   %º  %   %   ∫ ô   ñ(      ò   ñ(      ñ(   %   %ø    ∫ ∫ ∫ r %   %À  ñ-   ›∫ õC   ñ.   ›   º  %   %º  %   %ø    ∫ ∫ ∫ r %   %À  ñ5   ›   º  %º  %º  %   %°§ ```
+`
+`
+`¨ `û û û `Ä tˇˇ˚ò`ú £ ú 
+	``¨ F2?Æ fî $`ô 	F9?Æ lˇˇˇ˙Pî ,`ì JTYˇˇˇ˙Pî ,`@
+QÄÄ‹   ì<…‹   ä   	                     ª  Ã   ›π   ﬂI   ‚ø  I   r Ã   ›ø   ﬂI   ‚8      ;      ;	   
+   ;   ;      ;   v ›ø       r ﬂI   ‚l   v ›§	
+`
+ˇˇˇ˘P	`
+
+
+
+
+ˇˇˇ–P?[
+*ˇˇˇ˙PÄ RP»  ˇª÷J»  ñ               L        ‹À  ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r ﬂI   ‚r  Ã   ›ø  ﬂI   ‚l   r I	   Ã   ›ø   º  r ﬂI   ‚
+   r Ã   ›   ø   ô   ñ   ø   ﬂI   ‚r  ò   ñ   ñ   Ã   ú   ñ   ›   ø   ñ   ô   ñ   ø   ò   ñ   ñ   Ã   ›ø  ﬂI   ‚l   r À   ›º   ô   ñ   º   I	   ò   ñ   ñ   Ã   ›ø   º  r ﬂI   ‚   r Ã   ›ø   ô   ñ!   ø   ﬂI   ‚r  ò   ñ#   ñ#   Ã   ø   ô   ñ%   ø   ò   ñ%      ñ%   Ã   ›ø  ﬂI   ‚l   r I	   Ã 	  ›ø   º  r ﬂI   ‚   r Ã 
+  ›ø 
+  ú   ñ,   ›   ñ,   Ã 
+  ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r Ã   ›ø   º  r ﬂI   ‚   r Ã   ›º  Ã   ›ø   ô&   ñA      ø   %   %ø   %ò!   ñD      ø   %   %ø   %ñG   À  ›ø  ﬂI   ‚8   º  ;   l   ;   v ›§	`ˇˇˇˇPP	`ˇˇˇˇPP	`ˇˇˇˇPP
+P	`ˇˇˇ˙P<`ˇˇˇˇPP	`
+õ P© ∞ `ˇˇˇ˙P9`	Æ `ˇˇˇˇPP	`õ 	Pò Ø `ˇˇˇ˙P<`ˇˇˇˇPP	`† `ˇˇˇ˛PP
+`ˇˇˇ˛PP
+`ˇˇˇ˛PP
+`ˇˇˇ˛PP
+`ˇˇˇ˛PP
+`
+`î Kï 1ê 	
+ˇˇˇıPÄ ‹PÄÄH   [b´†H                            ∫  I   ﬂI   ‚r  ø   °§ `PQÄÄH   ¢?b˜H                            ∫  I   ﬂI   ‚r  ø   °§ `PQÄÄH   ø¶cKH                            ∫  I   ﬂI   ‚r  ø   °§ `PQÄÄ‹  \ZS#‹  û         %       Y       ∫  I   ô   ñ   ∫  Jò   ñ   ∫  I   ñ      ›ø   ú(   ñ   ›∫  ø   JI   ﬂI   ‚r  Ã   ñ	   ›ø   ô  ñ
+   ∫  ø   JÀ   ›π    º   I   ø   JI   r À  ›ø   õ(   ñ   ›π    º   I   ø   JI   r ñ   À  ›π    º   I   ø 	  JI	   r À  ›π    º   I   ø 	  JI
+   r À  ›π    º   I   ø   JI   r À  ›∫  ø   JI   À  ›∫  ø   JI   À  ›∫  ø   JI   À  ›òD  ñ+      ø   ﬂI   ‚r  %À	  ›ø   ô$   ñ/      ø   ﬂI   ‚r  %ò   ñ2   ñ2   À
+  ›   ø   ﬂI   ‚r  %À  ›   ø   ﬂI   ‚r  %À  ›π    ∫  º	  Jr À  ›º
+  ô    ñ<   π    ∫  º
+  Jr ò   ñ?   ñ?   À  ›π    ∫  º  Jr À  ›π    ∫  º  Jr À  ›π    ∫  I   r À  ›∫  I   À  ›∫  I   À  ›∫  I   À  ›ñK   ∫  ø   JI   À  ›ø   ø   º  º  º  ø   ø   º  ø   º  º  º  º  º  ø   ø   ø   ø   ø   ø   ø 
+  r À  ›ø   ø   r ﬂI   ‚º  v ›ø   ø   r ﬂI   ‚   r ﬂI   ‚8      ;      ;   v ›§ `≤ • P``î ˇˇˇˇP`ñ î ˇˇˇıP`	î ˇˇˇˇP`	î ˇˇˇˇP`î ˇˇˇˇP"`ì `ì `ù `	P	`î Pô `P	`P	`ˇˇˇıPî ˇˇˇıPò ˇˇˇ˜Pˇˇˇ˜P	ˇˇˇ˘P	í `ì `ˇˇˇŸP*`ˇˇˇˇP
+	ˇˇˇ˚Pˇˇˇ˛PP
+
+
+ˇˇˇ‚P/PÄÄÄ3ıÿ  `      @i  l    @4     `o  a  k     @ë   ≈     `X  ã  √  a  k     @`  6      @  `  `Y    a    r  k   h     @ë   6  [  d    p    `h   	  `  `    p	  pd  a  
+  `a  Ø  È   4     `  p  @m  c    pd    pr    pt    pn  
+  po  â   p  s    `  @	  @ç   j    ^  $    â     
+  @	    L    @  
+      @      @        @      @        @        @        @    [	   @       @"  !  #    @%  $  ∞   @'  &  ~   @)  (  *    @,  +  -    @/  .    @1  0    @3  2  •    @5  4    @7  6  8    @:  9     @<  ;     @>  =  ?  !  @A  @   B  "  @D  C  #  @F  E  £  $  @H  G  I  %  @K  J  L  &  @N  M  O  '  @Q  P  Q  (  @S  R  )  @U  T  *  @W  V  ]
+    +  @Y  X  ,  @[  Z  \  -  @^  ]  Y .  @`  _  a  /  @c  b  d  0  @f  e  g  1  @i  h  2  @k  j  3  @m  l  n  4  @p  o  q  5  @s  r  ë 6  @u  t  v  7  @x  w  y  8  @{  z  |  9  @~  }    :  @Å  Ä  p ;  @É  Ç  Ñ  <  @Ü  Ö  =  @à  á  >  @ä  â  ã  ?  @ç  å  é  @  @ê  è  ú A  @í  ë  B  @î  ì  C  @ñ  ï  ó  D  @ô  ò  E  @õ  ö  æ	 F  @ù  ú  û  G  @†  ü  H  @¢  °  £  I  @•  §  J  @ß  ¶  ®  K  @™  ©  ´  L  @≠  ¨  Æ  M  @∞  Ø  ±  N  @≥  ≤  O  @µ  ¥  ∂  P  @∏  ∑  π  Q  @ª  ∫  º  R  @æ  Ω  ø  S  @¡  ¿  ¬  T  @ƒ  √  æ U  @∆  ≈  R  V  @»  «  …  W  @À     X  @Õ  Ã  Y  @œ  Œ  \ Z  @—  –  [  @”  “  [
+ \  @’  ‘  ÷  ]  @ÿ  ◊  ^  @⁄  Ÿ  €  _  @‹    ›  `  @ﬂ  ﬁ  a  @·  ‡  ‚  b  @‰  „  Â  c  @Á  Ê  d  @È  Ë  Í  e  @Ï  Î  Ì  a    `  `Z  ã  M   Ø  ^    `Z  ã  ^  ª    p     p  `  p     `Ó  Ô     `   Ú   =  8   ;       `h  	 K  M  B  T  8  
+   i  f  @       `  h  
+ g  @  i   h  @  `  h  
+ i  @  i   j  @  `   p  p  `k  @÷   $    I  G  •  2  £  ≤  .   ∫  T  j    ~ &  \  Z  …  «  Ö  Y ]  [
+ “        `â   — , - . / 0 1 2 3 4 5 6 7 8 9 : ;   `       l  @  (  )  â   ?     —           ! " # $ % & ' ( ) * +   p< =   `  n  @U  G     `i          p   `^   !  `^   "  `^   #  `8  D j   ù  U V û  W X Y ^  Z [ \ ] i  L ^ _ ß   a  ` q  @b a d c   `B C D E F  ß   !  pç G  H "  pI #  p4  J K L M N O P Q R S ≈   p  @0  $  pT   `a  8  a  ? o  @@ j          ç ^  A Ö      p  `  p  p  p  p Y  X  é  Z  î  m  @  p  Ú  >   p$  `˙  ¯  ˚    `  p  p  pÓ  Ô    ◊ Ò  Ú  Û  Õ  Ù    ı  ˆ  ˜  ¯    p˘  ¸  ˝  ˛  ˇ      `r  n    p   `  p  @  p  p  pˇXÑÂ                7              †        n      †        e     †       f     †       g     †       h     † ,      i     † )      j     † +      j     † 2      k     † I   d  1      †
+ º     ∆      †
+ ¥     n      †  ≠     n      †
+ Æ     n      †
+ ·     «      †
+ »     n     † ƒ     o     † ø     n      †  √  
+   t      †  ≥     s      †  U           †
+ O     t     † Õ     r      †       l      †  ‹  
+   w     † Ê  
+   w     † Ù  !   m      †  (  '   c      †       z     † ¢     {     † Ç      |     † \     }     † _     ~     † b          † e     T     †
+ ùH©¿      Œ:      Œ:                Ä	   è     è     
+                ú      ú      !            ¥   ˜   ¨   ˜      µ              ¶  ¸   ¶              Ä≥     ´        ¥           ¢  ≤  ö  ≤     £         Ä◊  9  œ  9     ÿ           ˘    Ò       ˙              "    "                 F  }  >  }     G           õ  [  ì  [     ú         Äg  t  _  t               w  h  m  h                —  Â  …  Â     w           ˙  b  Ú  b     †         Ä Ä  À:  x  À:     &         Ä ¡  »:  π  »:     g           ‹     ‘        Ç            û   ƒ   î   ƒ      D             Œ   Ñ!  ƒ   Ñ!     t          Ä é!  «:  Ñ!  «:     4!            8"  Z#  0"  Z#     ﬁ!           Ó"  R#  Ê"  R#     î"           g#  u$  ]#  u$     #           $  V&  u$  V&     %$           ú$  q%  î$  q%     B$           }%  R&  u%  R&     #%           `&  £'  V&  £'     &           ≠'  ‘3  £'  ‘3     H'           Û-  È2  Î-  È2     Ñ-      	   Ä Ô3  ƒ:  Á3  ƒ:     j3         Ç 4  ¡:  w4  ¡:     ˙3            ˇ4  %5  ˜4  %5     z4           ó5  Ω5  è5  Ω5     5           26  X6  *6  X6     ≠5           ˇ7  æ:  ˜7  æ:     z7         5°›•ôæ±?¿¬sn      fn·⁄fn·⁄Gmfw·ÿ   v    O^userContextId=38&partitionKey=%28https%2Cmystnodes.com%29,:https://files.coinmarketcap.com/static/widget/currency.js necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+content-type: application/javascript
+content-length: 15054
+last-modified: Wed, 24 Feb 2021 11:11:55 GMT
+accept-ranges: bytes
+server: AmazonS3
+date: Sun, 16 Jun 2024 10:42:44 GMT
+etag: "ac6803f8a2e577e3da8f18c5a4ae95d6"
+x-cache: Hit from cloudfront
+via: 1.1 314aa53e803ca952f52cb68ad4be899e.cloudfront.net (CloudFront)
+x-amz-cf-pop: SIN52-C2
+x-amz-cf-id: KoThWqTBGPrHMRPgNe8Ne0ietgs1marH530A9aipfXBTcv0oz2IFig==
+age: 12476
+X-Firefox-Spdy: h2
+ original-response-headers content-type: application/javascript
+content-length: 15054
+last-modified: Wed, 24 Feb 2021 11:11:55 GMT
+accept-ranges: bytes
+server: AmazonS3
+date: Sun, 16 Jun 2024 10:42:44 GMT
+etag: "ac6803f8a2e577e3da8f18c5a4ae95d6"
+x-cache: Hit from cloudfront
+via: 1.1 314aa53e803ca952f52cb68ad4be899e.cloudfront.net (CloudFront)
+x-amz-cf-pop: SIN52-C2
+x-amz-cf-id: KoThWqTBGPrHMRPgNe8Ne0ietgs1marH530A9aipfXBTcv0oz2IFig==
+age: 12476
+X-Firefox-Spdy: h2
+ ctid 2 uncompressed-len 0 net-response-time-onstart 186 net-response-time-onstop 186 alt-data 1;15054,javascript/moz-script-bytecode-20240606121648-8l alt-data-from-child 1  a
