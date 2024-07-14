@@ -4,7 +4,7 @@ COORDINATE_CLOSE_TAB="252 46"
 COORDINATE_OPEN_TAB="141 46"
 
 start_container=1
-end_container=5
+end_container=97
 
 while [ $start_container -le $end_container ]
 do
@@ -16,7 +16,7 @@ do
     sleep 1
 
     xdotool key --repeat $start_container Down key Return
-    sleep 5
+    sleep 7
 
     echo "container $((start_container + 1)) is open now!"
 
